@@ -8,5 +8,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  }
 }

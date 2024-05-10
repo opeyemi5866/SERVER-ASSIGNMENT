@@ -1,7 +1,11 @@
+
+
+import http from "http"
+
 const http = require('http');
 const os = require('os');
 
-const PORT = 3000;
+const PORT = 8090;
 
 function simulateAsyncOperation() {
   return new Promise(resolve => {
@@ -42,6 +46,6 @@ async function requestHandler(req, res) {
 
 const server = http.createServer(requestHandler);
 
-server.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+server.listen(8090, () => {
+  console.log(`Server is listening on port ${8090}`);
 });
